@@ -15,7 +15,7 @@ app = FastAPI(
 async def home():
     note = """
     Password Generator API
-    An API for generating strong and secure passwords!
+    An API for generating strong and secure passwords.
     Note: add "/redoc" to get the complete documentation.
     """
     return note
